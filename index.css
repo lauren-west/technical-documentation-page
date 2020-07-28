@@ -1,21 +1,17 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: salmon;
-
 }
 
 h1 {
     text-align: center;
     background-color: royalblue;
-
 }
+
 #title{
     height: 100px;
     width: 500px;
-     
-}
-#topics {
-
+    
 }
 
 #navbar {
@@ -30,37 +26,35 @@ h1 {
     background-color: cadetblue;
 
 }
+
 #cosa-2 {
     padding: 10px;
     background-color: rebeccapurple;
 }
+
 #cosa-3 {
     padding: 10px;
     background-color: red;
 }
 
-
 #main-doc {
     background-color: #eee;
-
 }
 
 #email {
     font-family: 'Times New Roman', Times, serif;
     background-color: crimson;
 }
+
 #submit {
     padding: 10px 20px 10px 20px;
+    margin: 10px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: cornflowerblue;
-
-    
+    background-color: cornflowerblue;    
 }
-
 
 .main-section{ 
     background-color: chocolate;
-    
 }
 
 .nav-link {
@@ -70,7 +64,6 @@ h1 {
     border-color: cadetblue;
     height: 30px;
     width: 30px;
-
 }
 
 .center {

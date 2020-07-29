@@ -1,115 +1,239 @@
 <!DOCTYPE html>
 <html>
-<header id="header">
+
+<head>
     <title>Technical Documentation Page</title>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <link rel="stylesheet" href="index.css">
-    <img id="header-img" src="" alt="">
-
-    <nav id="navbar">
-        <header id="topics">Topic of Technical Documenation</header>
-        <a href="#HTML_1" class="nav-link">HTML 1</a>
-        <a href="#HTML_2"class="nav-link">HTML 2</a>
-        <a href="#HTML_3" class="nav-link">HTML 3</a>
-        <a href="#HTML_4" class="nav-link">HTML 4</a>
-        <a href="#HTML_5" class="nav-link">HTML 5</a>
-    </nav>
-
-</header>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
 <body>
+
+    <header id="header">
+        <img id="header-img" src="" alt="">
+        <nav id="navbar">
+            <div class="box-container">
+                <div class="box-1">
+                    <header id="topics">Topic of Technical Documenation</header>
+                </div>
+                <div class="box-2">
+                    <a href="#HTML_Condensed" class="nav-link">HTML Condensed</a>
+                    <a href="#CSS_Condensed" class="nav-link">CSS Condensed</a>
+                    <a href="#Design_Principles" class="nav-link">Design Principles</a>
+                    <a href="#Accessibility_Principles" class="nav-link">Accessibility Principles</a>
+                    <a href="#Responsiveness_Principles" class="nav-link">Responsiveness Principles</a>
+                    <a href="#CSS_Flexbox_and_CSS_Grid" class="nav-link">CSS Flexbox and CSS Grid</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     <main id="main-doc">
         <div>
-        <h1 id="title">Technical Documentation Page</h1>
-        <video width="600px" height="auto" id="video" controls>
-            <source src="coding-video.mp4" type="video/mp4">
-        </video>
+            <h1 id="title">Technical Documentation Page</h1>
+            <div class="center">
+                <video width="600px" height="auto" id="video" controls>
+                    <source src="coding-video.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
-        
 
-        <section class="main-section" id="HTML_1">
-            <header>HTML 1</header>
-            <p>This of HTMl like the skeleton of your webpage.</p>
-            <p>CSS is like the skin, the muscles, that shape what your user sees.</p>
+        <section class="main-section" id="HTML_Condensed">
+            <header class="section-header">HTML Condensed</header>
+            <p>HTML, or HyperText Markup Language, is a markup language used to describe the structure of a web page. It
+                uses a special syntax or notation to organize and give information about the page to the browser.
+                Elements usually have opening and closing tags that surround and give meaning to content. For example,
+                there are different tag options to place around text to show whether it is a heading, a paragraph, or a
+                list.</p>
+            <p>The HyperText part of HTML comes from the early days of the web and its original use case. Pages usually
+                contained static documents that contained references to other documents. These references contained
+                hypertext links used by the browser to navigate to the reference document so the user could read the
+                reference document without having to manually search for it.</p>
+            <p>A few things you can do with HTML...</p>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Headlines using h1 h2 h3 h4 h5 & h6 elements</li>
+                <li>Inform with paragraph elements</li>
+                <li>Fill in the blank placeholder text</li>
+                <li>Comment out and Uncomment HTML</li>
+                <li>Add Images and Videos to your Website</li>
+                <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/">Link to
+                        External Pages</a></li>
             </ul>
-            <code></code>
+            <div>This is HTML example code:
+                <br> 
+            <code class="language-html">
+                &lt!DOCTYPE html>
+                &lthtml>
+                &lthead>
+                &lttitle>Page Title&lt/title>
+                &lt/head>
+                &ltbody>
+
+                &lth1>This is a Heading&lt/h1>
+                &ltp>This is a paragraph.&lt/p>
+
+                &lt/body>
+                &lt/html>
+            </code>
+            </div>
         </section>
 
-        <section class="main-section" id="HTML_2">
-            <header>HTML 2</header>
-            <p>Explanation</p>
-            <p>Explanation</p>
+        <section class="main-section" id="CSS_Condensed">
+            <header class="section-header">CSS Condensed</header>
+            <p>Cascading Style Sheets (CSS) tell the browser how to display the text and other content that you write in
+                HTML.
+                Note that CSS is case-sensitive so be careful with your capitalization.</p>
+            <p>There are three main ways to apply CSS styling. You can apply inline styles directly to HTML elements
+                with the style attribute. Alternatively, you can place CSS rules within style tags in an HTML document.
+                Finally, you can write CSS rules in an external style sheet, then reference that file in the HTML
+                document. Even though the first two options have their use cases, most developers prefer external style
+                sheets because they keep the styles separate from the HTML elements. This improves the readability and
+                reusability of your code.
+
+            <p>The idea behind CSS is that you can use a selector to target an HTML element in the DOM (Document Object
+                Model) and then apply a variety of attributes to that element to change the way it is displayed on the
+                page.
+            </p>
+            <p>In this section, you'll see how adding CSS styles to the elements of your CatPhotoApp can change it from
+                simple text to something more.</p>
+            <p>A few things you can do...</p>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Change the Color of Text</li>
+                <li>Use CSS Selectors to Style Elements</li>
+                <li>Use CSS Class to Style an Element</li>
+                <li>Style Multiple Elements with a CSS Class</li>
+                <li>Change the Font Size and Family of an element</li>
+                <li>Add Borders around your Elements</li>
             </ul>
-            <code></code>
-        </section>
-    
-        <section class="main-section" id="HTML_3">
-            <header>HTML 3</header>
-            <p>Explanation</p>
-            <p>Explanation</p>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <code></code>
+            <div>This is example code:
+                <br> 
+            <code class="language-html">
+                &lth2 style="color: blue;">CatPhotoApp&lt/h2>
+            </code>
+            </div>
         </section>
 
-        <section class="main-section" id="HTML_4">
-            <header>HTML 4</header>
-            <p>Explanation</p>
-            <p>Explanation</p>
+        <section class="main-section" id="Design_Principles">
+            <header class="section-header">Design Principles</header>
+            <p>Visual Design in web development is a broad topic. It combines typography, color theory, graphics,
+                animation, and page layout to help deliver a site's message. The definition of good design is a
+                well-discussed subject, with many books on the theme</p>
+            <p>At a basic level, most web content provides a user with information. The visual design of the page can
+                influence its presentation and a user's experience. In web development, HTML gives structure and
+                semantics to a page's content, and CSS controls the layout and appearance of it.</p>
+            <p>This section covers some of the basic tools developers use to create their own visual designs.</p>
+            <p>A few things you can do...</p>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Create Visual Balance Using text-align Property</li>
+                <li>Adjust the Width of an Element Using the width Property</li>
+                <li>Use the strong Tag to Make Text Bold</li>
+                <li>Use the u tag to Underline Text</li>
+                <li>Use the em tag to Italicize Text</li>
+                <li>Use the s tag to Strikethrough Text</li>
             </ul>
-            <code></code>
+            <div>This is example code:
+                <br> 
+            <code class="language-html">
+                text-align: justify;
+            </code>
+            </div>
         </section>
 
-        <section class="main-section" id="HTML_5">
-            <header>HTML 5</header>
-            <p>Explanation</p>
-            <p>Explanation</p>
+        <section class="main-section" id="Accessibility_Principles">
+            <header class="section-header">Accessibility Principles</header>
+            <p>"Accessibility" generally means having web content and a user interface that can be understood,
+                navigated, and interacted with by a broad audience. This includes people with visual, auditory,
+                mobility, or cognitive disabilities.</p>
+            <p>Websites should be open and accessible to everyone, regardless of a user's abilities or resources. Some
+                users rely on assistive technology such as a screen reader or voice recognition software. Other users
+                may be able to navigate through a site only using a keyboard. Keeping the needs of various users in mind
+                when developing your project can go a long way towards creating an open web.</p>
+            <p>A few things you can do...</p>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Add a Text Alternative to Images for Visually Impaired Accessibility</li>
+                <li>Know when Alt text should be Left Blank</li>
+                <li>Use Heading to Show Hierachical Relationships of Content</li>
+                <li>Jump Straight to the Content Using the main Element</li>
+                <li>Wrap Content in the article Element</li>
+                <li>Make Screen Reader Navigation Easier with the header Landmark</li>
             </ul>
-            <code></code>
+            <div>This is example code:
+                <br> 
+            <code class="language-html">
+                &ltimg src="visualDecoration.jpeg" alt="">
+            </code>
+            </div>
+        </section>
+
+        <section class="main-section" id="Responsiveness_Principles">
+            <header class="section-header">Responsiveness Principles</header>
+            <p>Today, there are many types of devices that can access the web. They range from large desktop computers
+                to small mobile phones. These devices have different screen sizes, resolutions, and processing power.
+                Responsive Web Design is an approach to designing web content that responds to the constraints of
+                different devices. The page structure and CSS rules should be flexible to accommodate these differences.
+                In general, design the page's CSS to your target audience. If you expect most of your traffic to be from
+                mobile users, take a 'mobile-first' approach. Then add conditional rules for larger screen sizes. If
+                your visitors are desktop users, then design for larger screens with conditional rules for smaller
+                sizes. CSS gives you the tools to write different style rules, then apply them depending on the device
+                displaying the page. This section will cover the basic ways to use CSS for Responsive Web Design.</p>
+            <p>A few things you can do...</p>
+            <ul>
+                <li>Create a Media Query</li>
+                <li>Use Media Query to make account for various devices</li>
+                <li>Make an Image Responsive</li>
+                <li>Use a Retina Image for Higher Resolution Displays</li>
+                <li>Make a Typography Responsive</li>
+            </ul>
+            <div>This is CSS example code:
+                <br> 
+            <code class="language-html">
+                @media (max-width: 100px) { /* CSS Rules */ }
+            </code>
+            </div>
+        </section>
+
+        <section class="main-section" id="CSS_Flexbox_and_CSS_Grid">
+            <header class="section-header">CSS Flexbox and CSS Grid</header>
+            <p>A website's User Interface ("UI") has two components. First, there are the visual elements, such as
+                colors, fonts, and images. Second, there is the placement or positioning of those elements. In
+                Responsive Web Design, a UI layout must accommodate many different browsers and devices accessing the
+                content.</p>
+
+            <p>CSS3 introduced Flexible Boxes, or flexbox, to create page layouts for a dynamic UI. It is a layout mode
+                that arranges elements in a predictable way for different screen sizes and browsers. While somewhat new,
+                all popular modern browsers support flexbox. This section covers how to use flexbox and the different
+                layout options it offers.</p>
+            <p>CSS Grid helps you easily build complex web designs. It works by turning an HTML element into a grid
+                container with rows and columns for you to place children elements where you want within the grid.</p>
+            <p>A few things you can do...</p>
+            <ul>
+                <li>Use display: flex to Position Two Boxes</li>
+                <li>Apply flex-direction Property to Make a Row</li>
+                <li>Align Elements Using the justify-content Property</li>
+                <li>Add Columns with grid-template-columns</li>
+                <li>Add rows with grid-template-rows</li>
+                <li>Align an Item Horizontally using justify-self</li>
+            </ul>
+            <div>This is CSS example code:
+                <br> 
+            <code class="language-html">
+                .container {
+                    display: grid;
+                    grid-template-columns: 50px 50px;
+                  }
+            </code>
+            </div>
         </section>
 
         <form action="https://www.freecodecamp.com/email-submit" id="form">Subscribe to our newsletter today!
             <br>
-            <input id="email" type="email" placeholder="cookie@cream.com">
+            <input id="email" type="email" placeholder="loser@freecodecamp.com">
             <br>
             <button id="submit" type="submit">Submit</button>
         </form>
 
     </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>

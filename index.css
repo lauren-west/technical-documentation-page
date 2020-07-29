@@ -1,72 +1,161 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+
+@media (max-width: 800px){
+    body {
+      font-size: 10px;
+    }
+}
+
+@media (mix-width: 800px){
+    body {
+      font-size: 20px;
+    }
+}
+
+#header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+a {
+
+}
+
+
+a:hover {
+    background: yellow;
 }
 
 h1 {
     text-align: center;
-    background-color: royalblue;
+
 }
 
+
 #title{
-    height: 100px;
-    width: 500px;
-    
+    padding: 20px;
+    font-size: 30px;
+    margin: 150px 80px 50px 80px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: yellow;
+    border-radius: 20px;
+    color: black
+
 }
 
 #navbar {
-    background-color: seagreen;
-    height: 100px;
-    width: 200px;
-    display: flex;
+    position: fixed;
+    background-color: teal;
+    left: 0px;
+    margin: 10px;
+    border-radius: 13px;
 }
 
-#cosa-1 {
-    padding: 10px;
-    background-color: cadetblue;
-
-}
-
-#cosa-2 {
-    padding: 10px;
-    background-color: rebeccapurple;
-}
-
-#cosa-3 {
-    padding: 10px;
-    background-color: red;
-}
 
 #main-doc {
-    background-color: #eee;
+
 }
 
+
+#video {
+    padding: 20px;
+    background-color: teal;
+    border-radius: 15px;
+
+}
 #email {
     font-family: 'Times New Roman', Times, serif;
-    background-color: crimson;
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+    
 }
 
 #submit {
-    padding: 10px 20px 10px 20px;
-    margin: 10px;
+    padding: 6px 20px 6px 20px;
+    margin: 10px 0px 10px 0px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: cornflowerblue;    
+    font-size: 12px;
+    border-radius: 10px;
+  
+}
+
+#submit:hover {
+      background: yellow;
+    
+}
+
+#topics {
+    font-weight: bolder;
+    color: white;
+}
+
+#form {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 12px;
 }
 
 .main-section{ 
-    background-color: chocolate;
+    padding: 0px 20px 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav-link {
-    padding: 10px 20px 10px 20px;
-    border-width: 5px;
-    background-color: brown;
-    border-color: cadetblue;
-    height: 30px;
-    width: 30px;
+    padding-bottom: 5px;
+    font-weight: bolder
+    
+}
+
+.box-container {
+    margin-top: 15px;
+    padding: 10px;
+    
+}
+
+.box-1 {
+    padding: 0px 10px 10px 10px;
+}
+
+.box-2 {
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-decoration: none;
 }
 
 .center {
     display: flex;
     justify-content: center;
+}
+
+.section-header {
+    margin: 40px 80px 0px 80px;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.language-html {
+    color: white;
+    background: none;
+    font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+    font-size: 1em;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    hyphens: none;
 }
